@@ -1,19 +1,19 @@
 nav {
 	background-color: var(--blue-background);
 	transition: var(--transition);
-
 	.py-3 {
-		padding: 2rem 0;
+		padding: 2rem 0.5rem;
 	}
 	.container {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
 		.brand {
 			display: flex;
 			gap: 0.3rem;
 			span {
-				font-size: 2rem;
+				font-size: 1.5rem;
 				color: var(--light-blue);
 				font-weight: bolder;
 				font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,7 +25,7 @@ nav {
 		.links-container {
 			.toggle {
 				display: flex;
-				gap: 1rem;
+				gap: 1.5rem;
 				flex-direction: row-reverse;
 				position: relative;
 				z-index: 1;
@@ -70,11 +70,11 @@ nav {
 						}
 						.sun {
 							color: yellow;
-							font-size: 1.4rem;
+							font-size: 1.6rem;
 						}
 						.moon {
 							color: blue;
-							font-size: 1.4rem;
+							font-size: 1.6rem;
 						}
 					}
 					.color-mode {
@@ -92,7 +92,7 @@ nav {
 	}
 	@media only screen and (min-device-width: 1200px) {
 		background-color: var(--background);
-		margin: 2rem;
+		margin: 2rem 1rem;
 		margin-top: 0;
 		.py-3 {
 			padding: 1rem 0;

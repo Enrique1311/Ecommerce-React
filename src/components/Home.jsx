@@ -7,7 +7,7 @@ const Home = () => {
 		<div className="home">
 			<div className="container mx-3 py-3">
 				<div className="title-container">
-					<h2>Encuentra miles de productos para ti</h2>
+					<h2>Encuentra miles de productos de tecnología para ti</h2>
 					<div className="input-container">
 						<input type="text" placeholder="¿Qué deseas comprar?" />
 						<div className="icon">

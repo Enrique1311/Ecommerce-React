@@ -21,15 +21,15 @@
 				align-items: center;
 				gap: 1rem;
 				background-color: var(--background);
-				padding: 0.5rem;
+				padding: 0.4rem;
 				color: var(--dark-blue);
 				width: 100%;
 				border-radius: 1rem;
 				input {
-					padding-left: 1rem;
+					padding-left: 0.1rem;
 					border: none;
 					font-size: 1rem;
-					width: 70%;
+					width: 90%;
 					background-color: var(--background);
 					color: var(--dark-blue);
 					&:focus {
@@ -63,7 +63,7 @@
 		}
 	}
 	@media only screen and (min-device-width: 768px) {
-		margin: 2rem;
+		margin: 1rem;
 		border-radius: 1rem;
 		.container {
 			.title-container {
@@ -81,8 +81,9 @@
 		.container {
 			flex-direction: row;
 			gap: 1rem;
-			padding: 2rem 4rem;
+			padding: 4rem;
 			.title-container {
+				justify-content: center;
 				align-items: flex-start;
 				h2 {
 					text-align: start;

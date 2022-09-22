@@ -15,8 +15,8 @@ const NavBar = ({ changeTheme, currentTheme }) => {
 		<nav>
 			<div className="container py-3 mx-3">
 				<div className="brand">
-					<span>ecom</span>
-					<span className="dot">.</span>
+					<span>Tech</span>
+					<span className="dot">.ecomm</span>
 				</div>
 				<div className="links-container" onClick={(e) => e.stopPropagation()}>
 					<div className="toggle">

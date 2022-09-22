@@ -40,14 +40,14 @@ function Services() {
 					</div>
 				</div>
 				<div className="service four">
+					<div className="image">
+						<img src={service4} alt="service" />
+					</div>
 					<p>Ofertas de Aniversario</p>
 					<h4>Envío Gratis</h4>
 					<p>
 						Conoce más <HiArrowSmRight />
 					</p>
-					<div className="image">
-						<img src={service4} alt="service" />
-					</div>
 				</div>
 			</div>
 		</div>
