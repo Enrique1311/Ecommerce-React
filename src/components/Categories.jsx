@@ -1,8 +1,8 @@
 import React from "react";
-import category1 from "../assets/category1.png";
-import category2 from "../assets/category2.png";
-import category3 from "../assets/category3.png";
-import category4 from "../assets/category4.png";
+import category1 from "../assets/notebook-icon.png";
+import category2 from "../assets/cel-icon.png";
+import category3 from "../assets/monitor-icon.png";
+import category4 from "../assets/sound-ico.png";
 import category5 from "../assets/category5.png";
 import category6 from "../assets/category6.png";
 import category7 from "../assets/category7.png";
@@ -63,13 +63,13 @@ const Categories = () => {
 						return (
 							<div className="category" key={index}>
 								<img src={image} alt="Category" width={120} height={90} />
-								<h5>{title}</h5>
+								<h4>{title}</h4>
 								<p>{description}</p>
 							</div>
 						);
 					})}
 				</div>
-				<button>Show All</button>
+				<button>Mostrar todo</button>
 			</div>
 		</div>
 	);

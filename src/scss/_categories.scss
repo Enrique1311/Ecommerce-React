@@ -30,15 +30,17 @@
 				&:hover {
 					box-shadow: var(--elevate-shadow);
 				}
-				h5 {
+				h4 {
 					color: var(--dark-blue);
+					text-transform: uppercase;
 				}
 				p {
 					color: var(--light-blue);
-					font-size: small;
+					font-size: bold;
 				}
 				img {
-					max-inline-size: 100%;
+					width: 7rem;
+					height: 7rem;
 				}
 			}
 		}
@@ -61,6 +63,10 @@
 		.container {
 			.categories {
 				grid-template-columns: repeat(4, 1fr);
+				.category {
+					padding-top: 2rem;
+					padding-bottom: 2rem;
+				}
 			}
 		}
 	}
