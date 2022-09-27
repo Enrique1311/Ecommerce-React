@@ -15,6 +15,7 @@
 			text-align: center;
 			&:hover {
 				box-shadow: var(--elevate-shadow);
+				transform: scale(1.04);
 			}
 			.content {
 				display: flex;

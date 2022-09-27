@@ -26,6 +26,11 @@
 					object-fit: cover;
 					border-radius: 1rem;
 					box-shadow: var(--fixed-shadow);
+					transition: var(--transition);
+					&:hover {
+						box-shadow: var(--elevate-shadow);
+						transform: scale(1.04);
+					}
 				}
 				h4 {
 					text-align: center;

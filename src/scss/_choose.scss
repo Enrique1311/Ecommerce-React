@@ -18,29 +18,27 @@
 			}
 		}
 		.content {
-			display: flex;
-			flex-direction: column;
-			gap: 2rem;
 			.choose-us {
 				display: grid;
 				grid-template-columns: 1fr;
 				gap: 2rem;
-
 				.choose {
 					background-color: var(--card-color2);
-
 					display: flex;
 					flex-direction: column;
 					align-items: center;
 					text-align: center;
-					gap: 1rem;
+					gap: 0.5rem;
 					padding: 1rem;
 					border-radius: 0.7rem;
-
 					box-shadow: var(--fixed-shadow);
 					transition: var(--transition);
+					img {
+						width: 12rem;
+					}
 					&:hover {
 						box-shadow: var(--elevate-shadow);
+						transform: scale(1.04);
 					}
 					h4 {
 						color: var(--dark-blue);
@@ -70,8 +68,6 @@
 	@media screen and (min-device-width: 1200px) {
 		.container {
 			.content {
-				flex-direction: row-reverse;
-				gap: 4rem;
 				.choose-us {
 					grid-template-columns: repeat(2, 1fr);
 				}
