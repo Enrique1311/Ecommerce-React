@@ -50,7 +50,7 @@ function App() {
 	}, 1500);
 	return (
 		<div data-theme={theme} className="app">
-			{/* <ScrollToTop /> */}
+			<ScrollToTop />
 			<NavBar changeTheme={changeTheme} currentTheme={theme} />
 			<Home />
 			<Services />

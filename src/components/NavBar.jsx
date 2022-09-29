@@ -41,19 +41,19 @@ const NavBar = ({ changeTheme, currentTheme }) => {
 					<div className={`links ${navState ? "responsive-toggle" : ""}`}>
 						<ul>
 							<li>
-								<a href="#"> Home</a>
+								<a href="#">Inicio</a>
 							</li>
 							<li>
-								<a href="#"> Landings</a>
+								<a href="#">Servicios</a>
 							</li>
 							<li>
-								<a href="#"> Pages</a>
+								<a href="#">Categorías</a>
 							</li>
 							<li>
-								<a href="#"> Docs</a>
+								<a href="#">Carrito</a>
 							</li>
 							<li>
-								<a href="#"> Help</a>
+								<a href="#">Ayuda</a>
 							</li>
 							<li onClick={changeTheme} className="color-mode">
 								{currentTheme === "dark" ? (

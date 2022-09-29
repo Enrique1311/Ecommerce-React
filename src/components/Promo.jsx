@@ -7,7 +7,7 @@ const Promo = () => {
 			<div className="container mx-3 py-3">
 				<div className="content">
 					<div className="title-container">
-						<h2>No te pierdas Nuestras Promociones</h2>
+						<h2>No Te Pierdas Nuestras Promociones</h2>
 						<p>
 							Siempre damos a nuestros clientes subscriptos una promoción.
 							¡Subscríbete ahora!

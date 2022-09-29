@@ -38,8 +38,8 @@ const Products = () => {
 		<div className="products-container mx-3 py-3">
 			<div className="container">
 				<div className="title-container">
-					<h2>Compare the Product</h2>
-					<button>New Comparison</button>
+					<h2>Compara Productos</h2>
+					<button>Nueva Comparación</button>
 				</div>
 				<div className="products">
 					{products.map(({ image, name, model, processor, os }, index) => {
@@ -52,11 +52,11 @@ const Products = () => {
 								<h4>{model}</h4>
 								<hr />
 								<div className="processor">
-									<h4>Processor</h4>
+									<h4>Procesador</h4>
 									<p>{processor}</p>
 								</div>
 								<div className="os">
-									<h4>Operating System</h4>
+									<h4>Sistema Operativo</h4>
 									<p>{os}</p>
 								</div>
 								<BsChevronDown />
