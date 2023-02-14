@@ -13,6 +13,7 @@
 			justify-content: center;
 			transition: var(--transition);
 			text-align: center;
+			cursor: pointer;
 			&:hover {
 				box-shadow: var(--elevate-shadow);
 				transform: scale(1.04);
@@ -24,13 +25,18 @@
 				align-items: center;
 				justify-content: center;
 			}
-			p {
+			button {
+				background-color: var(--card-color);
+				padding: 0.4rem 0.8rem;
+				color: var(--blue);
 				text-transform: uppercase;
 				font-size: 0.8rem;
-				color: var(--light-blue);
+				color: var(--blue);
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				border-radius: 2rem;
+				border: 2px solid var(--blue);
 				svg {
 					font-size: 1.4rem;
 				}
@@ -39,13 +45,8 @@
 				color: var(--dark-blue);
 				margin: 0.5rem;
 			}
-			button {
-				background-color: var(--blue);
-				padding: 0.4rem 0.8rem;
-				border-radius: 2rem;
-				color: white;
-				border: none;
-				cursor: pointer;
+			p {
+				color: var(--light-blue);
 			}
 			.image {
 				img {
@@ -63,8 +64,8 @@
 		.container {
 			grid-template-columns: repeat(10, 1fr);
 			grid-template-areas:
-				"one one one one one one four four four four"
-				"two two two two two three three three three three";
+				'one one one one one one four four four four'
+				'two two two two two three three three three three';
 			.service {
 				padding: 4rem 2rem;
 				&:nth-of-type(1) {
