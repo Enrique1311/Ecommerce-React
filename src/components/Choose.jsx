@@ -30,7 +30,7 @@ const Choose = () => {
 		},
 	];
 	return (
-		<div className="choose-us-container mx-3 py-3">
+		<div className="choose-us-container">
 			<div className="container">
 				<div className="title-container">
 					<h2>¡Razones para elegirnos antes que a otros!</h2>
@@ -43,8 +43,14 @@ const Choose = () => {
 					<div className="choose-us">
 						{data.map(({ image, title, description }, index) => {
 							return (
-								<div className="choose" key={index}>
-									<img src={image} alt="choose" />
+								<div
+									className="choose"
+									key={index}
+								>
+									<img
+										src={image}
+										alt="choose"
+									/>
 									<h4>{title}</h4>
 									<p>{description}</p>
 								</div>

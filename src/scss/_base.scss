@@ -54,17 +54,21 @@ body,
 	overflow: visible;
 }
 
+.container {
+	padding: 30px;
+}
+
 ul {
 	list-style-type: none;
 }
 
-.mx-3 {
-	margin: 0 1.5rem;
-}
+// .mx-3 {
+// 	margin: 0 1.5rem;
+// }
 
-.py-3 {
-	padding: 3rem 0;
-}
+// .py-3 {
+// 	padding: 3rem 0;
+// }
 
 ::-webkit-scrollbar {
 	background-color: white;
@@ -85,11 +89,5 @@ ul {
 
 	.app::-webkit-scrollbar {
 		display: none;
-	}
-}
-
-@media only screen and (min-device-width: 1200px) {
-	.mx-3 {
-		margin: 0 5rem;
 	}
 }

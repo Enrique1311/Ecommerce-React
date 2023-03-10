@@ -27,11 +27,10 @@ const Footer = () => {
 		<BsLinkedin />,
 	];
 	return (
-		<footer className="py-3 mx-3">
+		<footer className="container">
 			<div className="brand-container">
 				<div className="brand">
-					<span>Tech</span>
-					<span className="dot">.ecomm</span>
+					<span>Ecom</span>
 				</div>
 				<p className="description">Nuestras redes sociales</p>
 				<ul className="social-links">
@@ -43,7 +42,10 @@ const Footer = () => {
 			<div className="links">
 				{data.map(({ type, subTypes }, index) => {
 					return (
-						<div className="link" key={index}>
+						<div
+							className="link"
+							key={index}
+						>
 							<h3 className="title">{type}</h3>
 							<ul>
 								{subTypes.map((type, index) => (

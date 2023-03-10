@@ -13,12 +13,14 @@ const NavBar = ({ changeTheme, currentTheme }) => {
 
 	return (
 		<nav>
-			<div className="container py-3 mx-3">
-				<div className="brand">
-					<span>Tech</span>
-					<span className="dot">.ecomm</span>
+			<div className="navbar-container">
+				<div className="logo">
+					<p>Ecom</p>
 				</div>
-				<div className="links-container" onClick={(e) => e.stopPropagation()}>
+				<div
+					className="links-container"
+					onClick={(e) => e.stopPropagation()}
+				>
 					<div className="toggle">
 						{navState ? (
 							<MdClose onClick={() => setNavState(!navState)} />
@@ -55,7 +57,10 @@ const NavBar = ({ changeTheme, currentTheme }) => {
 							<li>
 								<a href="#">Ayuda</a>
 							</li>
-							<li onClick={changeTheme} className="color-mode">
+							<li
+								onClick={changeTheme}
+								className="color-mode"
+							>
 								{currentTheme === "dark" ? (
 									<ImSun className="sun" />
 								) : (

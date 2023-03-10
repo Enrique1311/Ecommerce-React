@@ -53,7 +53,7 @@ const Categories = () => {
 	];
 
 	return (
-		<div className="categories-container mx-3 py-3">
+		<div className="categories-container">
 			<div className="container">
 				<div className="title-container">
 					<h2>Categorias</h2>
@@ -61,8 +61,14 @@ const Categories = () => {
 				<div className="categories">
 					{categories.map(({ image, title, description }, index) => {
 						return (
-							<div className="category" key={index}>
-								<img src={image} alt="Category" />
+							<div
+								className="category"
+								key={index}
+							>
+								<img
+									src={image}
+									alt="Category"
+								/>
 								<h4>{title}</h4>
 								<p>{description}</p>
 							</div>

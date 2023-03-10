@@ -1,20 +1,18 @@
 nav {
-	background-color: var(--blue-background);
 	transition: var(--transition);
-	.py-3 {
-		padding: 2rem 0.5rem;
-	}
-	.container {
+	.navbar-container {
+		top: 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-
-		.brand {
+		background-color: var(--light-blue);
+		position: fixed;
+		width: 100%;
+		.logo {
 			display: flex;
-			gap: 0.3rem;
-			span {
-				font-size: 1.5rem;
-				color: var(--dark-blue);
+			p {
+				font-size: 2rem;
+				color: var(--svg-color);
 				font-weight: bolder;
 				font-family: Verdana, Geneva, Tahoma, sans-serif;
 			}
@@ -94,10 +92,7 @@ nav {
 		background-color: var(--background);
 		margin: 2rem 1rem;
 		margin-top: 0;
-		.py-3 {
-			padding: 1rem 0;
-		}
-		.container {
+		.navbar-container {
 			.links-container {
 				.toggle {
 					display: none;
